@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1600 520">
+  <title id="title">Hermes Assist Conversation Agent banner</title>
+  <desc id="desc">Dark gradient banner with Home Assistant and Hermes-style chat nodes connected by glowing lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.45" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#062f35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00bcd4"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="520" rx="42" fill="url(#bg)"/>
+  <g opacity="0.28" stroke="#8bd7ff" stroke-width="2">
+    <path d="M90 390 C260 230 330 470 510 250 S820 190 960 310 1210 420 1510 150" fill="none"/>
+    <path d="M120 130 C340 260 420 90 610 190 S900 410 1070 250 1320 80 1490 260" fill="none"/>
+  </g>
+  <g filter="url(#glow)">
+    <line x1="1035" y1="260" x2="1270" y2="260" stroke="url(#accent)" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="1010" cy="260" r="112" fill="#0f172a" stroke="#00bcd4" stroke-width="8"/>
+    <path d="M950 275 h120 a34 34 0 0 0 0-68 h-82 a55 55 0 0 0-38 94 l-30 48 65-35" fill="none" stroke="#e0faff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1305" cy="260" r="112" fill="#101827" stroke="#7c3aed" stroke-width="8"/>
+    <path d="M1244 287 L1305 190 L1366 287 Z" fill="none" stroke="#f4efff" stroke-width="20" stroke-linejoin="round"/>
+    <circle cx="1305" cy="272" r="15" fill="#f4efff"/>
+  </g>
+  <text x="95" y="185" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" fill="#ffffff">Hermes Assist</text>
+  <text x="98" y="255" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="650" fill="#b8e8ff">Conversation Agent</text>
+  <text x="100" y="330" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" fill="#d8f6ff">A Home Assistant Assist custom integration for Hermes Agent</text>
+  <rect x="100" y="372" width="492" height="58" rx="29" fill="rgba(255,255,255,0.09)" stroke="rgba(255,255,255,0.22)"/>
+  <text x="128" y="411" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" fill="#ffffff">HACS custom repository ready</text>
+</svg>

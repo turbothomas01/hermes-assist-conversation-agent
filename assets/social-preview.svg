@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1280 640">
+  <title id="title">Hermes Assist Conversation Agent social preview</title>
+  <desc id="desc">Social preview card for the Hermes Assist Conversation Agent project.</desc>
+  <defs>
+    <radialGradient id="r" cx="72%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#1de9b6" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#224063"/>
+      <stop offset="1" stop-color="#07101d"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="640" rx="48" fill="url(#r)"/>
+  <g opacity="0.16" fill="none" stroke="#fff" stroke-width="3">
+    <circle cx="1000" cy="320" r="230"/>
+    <circle cx="1000" cy="320" r="160"/>
+    <circle cx="1000" cy="320" r="90"/>
+  </g>
+  <g transform="translate(835 160)">
+    <rect x="0" y="0" width="280" height="210" rx="42" fill="#0b1220" stroke="#7dd3fc" stroke-width="8"/>
+    <path d="M55 116 h155 a38 38 0 0 0 0-76 h-96 a70 70 0 0 0-48 121 l-24 45 65-32" fill="none" stroke="#e6fbff" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M185 240 l48 72 48-72" fill="none" stroke="#a78bfa" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="82" y="210" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="850" fill="#ffffff">Hermes Assist</text>
+  <text x="85" y="294" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#b8efff">Conversation Agent</text>
+  <text x="88" y="375" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" fill="#e8fbff">Connect Home Assistant Assist to Hermes Agent</text>
+  <text x="90" y="454" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" fill="#d5eaff">Custom integration • Optional local bridge • HACS-ready</text>
+</svg>

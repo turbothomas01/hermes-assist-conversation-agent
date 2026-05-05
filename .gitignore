@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.token
+secrets.yaml
+*.secret
+
+# Home Assistant/runtime artifacts
+.storage/
+home-assistant.log*
+*.db
+*.db-shm
+*.db-wal
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

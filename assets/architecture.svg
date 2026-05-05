@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1400 520">
+  <title id="title">Hermes Assist architecture diagram</title>
+  <desc id="desc">Architecture showing Home Assistant Assist sending text to a custom integration, then to an optional local bridge, then Hermes Agent.</desc>
+  <rect width="1400" height="520" rx="36" fill="#07111f"/>
+  <defs>
+    <marker id="arrow" markerWidth="13" markerHeight="13" refX="10" refY="6" orient="auto"><path d="M2,2 L11,6 L2,10 Z" fill="#7dd3fc"/></marker>
+  </defs>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="70" y="80" fill="#fff" font-size="46" font-weight="800">How it works</text>
+    <g transform="translate(70 145)">
+      <rect width="275" height="190" rx="28" fill="#0f2135" stroke="#38bdf8" stroke-width="4"/>
+      <text x="32" y="70" fill="#fff" font-size="31" font-weight="750">Home Assistant</text>
+      <text x="32" y="116" fill="#b8e8ff" font-size="25">Assist pipeline</text>
+      <text x="32" y="152" fill="#b8e8ff" font-size="25">Voice or text</text>
+    </g>
+    <g transform="translate(445 145)">
+      <rect width="275" height="190" rx="28" fill="#101827" stroke="#22d3ee" stroke-width="4"/>
+      <text x="28" y="70" fill="#fff" font-size="30" font-weight="750">Custom integration</text>
+      <text x="28" y="116" fill="#b8e8ff" font-size="24">Conversation agent</text>
+      <text x="28" y="152" fill="#b8e8ff" font-size="24">Config flow + auth</text>
+    </g>
+    <g transform="translate(820 145)">
+      <rect width="225" height="190" rx="28" fill="#15182e" stroke="#a78bfa" stroke-width="4"/>
+      <text x="31" y="70" fill="#fff" font-size="30" font-weight="750">Local bridge</text>
+      <text x="31" y="116" fill="#d8ccff" font-size="24">HTTP API</text>
+      <text x="31" y="152" fill="#d8ccff" font-size="24">API key</text>
+    </g>
+    <g transform="translate(1145 145)">
+      <rect width="185" height="190" rx="28" fill="#10251f" stroke="#34d399" stroke-width="4"/>
+      <text x="30" y="82" fill="#fff" font-size="31" font-weight="750">Hermes</text>
+      <text x="30" y="124" fill="#c8ffe9" font-size="25">Agent</text>
+    </g>
+    <g stroke="#7dd3fc" stroke-width="8" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
+      <path d="M360 240 H420"/>
+      <path d="M735 240 H795"/>
+      <path d="M1060 240 H1120"/>
+    </g>
+    <text x="110" y="425" fill="#d9f6ff" font-size="27">The bridge stays optional: HACS installs only the Home Assistant custom integration.</text>
+  </g>
+</svg>
