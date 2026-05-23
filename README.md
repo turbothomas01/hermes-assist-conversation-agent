@@ -1,5 +1,9 @@
 # Hermes Assist Conversation Agent
 
+<p align="center">
+  <img src="assets/hermes-conversation-agent-logo.png" alt="Hermes Assist Conversation Agent logo" width="180">
+</p>
+
 ![Hermes Assist Conversation Agent banner](assets/banner.svg)
 
 Home Assistant custom conversation agent for routing Assist utterances to a local [Hermes Agent](https://github.com/NousResearch/hermes-agent) bridge.
@@ -46,6 +50,8 @@ Final Home Assistant paths should be:
 /config/custom_components/hermes_assist_conversation/__init__.py
 /config/custom_components/hermes_assist_conversation/config_flow.py
 /config/custom_components/hermes_assist_conversation/conversation.py
+/config/custom_components/hermes_assist_conversation/brand/icon.png
+/config/custom_components/hermes_assist_conversation/brand/logo.png
 ```
 
 Restart Home Assistant, then add the integration from Devices & services.
